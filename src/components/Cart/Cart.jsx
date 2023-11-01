@@ -43,7 +43,7 @@ const Cart = (props) => {
       </div>
       <div className={classes.actions}>
         <button className={classes['button--alt']} onClick={props.onClose}>
-          Close
+          Closed
         </button>
         {hasItems && <button className={classes.button}>Order</button>}
       </div>
@@ -51,4 +51,4 @@ const Cart = (props) => {
   );
 };
 
-export default Cart;
+export default Cart
